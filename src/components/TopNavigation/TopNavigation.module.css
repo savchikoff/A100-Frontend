@@ -1,0 +1,90 @@
+.topNavigation {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.topNavigationInner {
+    background-color: #fff;
+    display: flex;
+    min-height: 56px;
+    width: 100%;
+    align-items: center;
+    gap: 40px 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 8px 12px;
+}
+
+.topNavigationTitle {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    color: #7d7d7d;
+    justify-content: start;
+    font: 600 18px/2 Roboto, sans-serif;
+}
+
+.topNavigationTitleWrapper {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: start;
+    padding: 6px 12px;
+}
+
+.topNavigationMenu {
+    align-self: stretch;
+    display: flex;
+    padding-right: 4px;
+    align-items: start;
+    justify-content: start;
+    width: 44px;
+    margin: auto 0;
+    position: relative;
+}
+
+.topNavigationMenuButton {
+    border-radius: 9999px;
+    display: flex;
+    min-height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+
+    &:hover {
+        opacity: .8;
+    }
+}
+
+
+.tooltip {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #FAFAFA;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    width: 90px;
+    padding: 8px;
+    margin-top: 8px;
+    z-index: 10;
+    border-radius: 4px;
+}
+
+.logoutButton {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.logoutButton:hover {
+    background-color: #f0f0f0;
+}

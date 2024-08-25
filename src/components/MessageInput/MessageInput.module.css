@@ -1,0 +1,39 @@
+.inpForm {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+    overflow: hidden;
+    max-height: 200px;
+    min-height: 54px;
+    width: 768px;
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 10px;
+
+    .inpText {
+        outline: none;
+        overflow: auto;
+        height: 100%;
+        scrollbar-width: thin;
+        width: 90%;
+    }
+
+    .inpSubmit {
+        width: 32px;
+        height: 32px;
+        border: none;
+        background: url(../../../public/assets/icons/sendButton.svg) no-repeat 50% 50%;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        &:disabled {
+            opacity: .3;
+            cursor: not-allowed;
+        }
+    }
+}

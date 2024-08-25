@@ -1,0 +1,79 @@
+.updatePlanSection {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    padding: 8px 0;
+}
+
+.updatePlanLink {
+    border-radius: 8px;
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 8px;
+}
+
+.updatePlanContent {
+    align-self: stretch;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    flex: 1;
+    flex-basis: 0%;
+    margin: auto 0;
+}
+
+.updatePlanInner {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: start;
+    height: 100%;
+}
+
+.updatePlanIcon {
+    border-radius: 9999px;
+    align-self: stretch;
+    display: flex;
+    min-height: 28px;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    margin: auto 0;
+    padding: 6px 3px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.updatePlanIconImage {
+    aspect-ratio: 1;
+    object-fit: contain;
+    object-position: center;
+    width: 16px;
+    align-self: stretch;
+    margin: auto 0;
+}
+
+.updatePlanText {
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    justify-content: start;
+    max-width: 100%;
+}
+
+.updatePlanTitle {
+    width: 100%;
+    font-size: 14px;
+    color: #000;
+    line-height: 1;
+}
+
+.updatePlanSubtitle {
+    width: 100%;
+    font-size: 12px;
+    color: #b4b4b4;
+    line-height: 1;
+}
